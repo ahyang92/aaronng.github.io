@@ -1,1 +1,249 @@
+body {
+  background-color:#AAAAAA;
+}
 
+.background1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: url('https://viner.digital/img/content/xseo-com2.jpg.pagespeed.ic.VpAJ5nMN3S.jpg') no-repeat center center fixed;
+  background-size:cover; /*or cover*/
+  max-height:1200px;
+  z-index:-1;
+  /*
+  filter:blur(2px);
+  -webkit-filter:blur(2px);!*/
+}
+
+
+
+.socialMediaDiv {
+  margin-top:30px;
+}
+
+/*
+.socialMediaDiv ul li:nth-child(1){
+position:relative;
+left:80px;
+}
+
+.socialMediaDiv ul li:nth-child(2){
+position:relative;
+left:80px;
+}
+.socialMediaDiv ul li:nth-child(3){
+position:relative;
+left:80px;
+}
+.socialMediaDiv ul li:nth-child(4) {
+position:relative;
+left:80px;
+} */
+
+.btn-xlg {
+  padding: 18px 28px;
+  font-size: 26px; //change this to your desired size
+  line-height: normal;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: #2F4F4F;
+  font-family: Calisto MT,Bookman Old Style,Bookman,Goudy Old Style,Garamond,Hoefler Text,Bitstream Charter,Georgia,serif; 
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 10px 8px 1px rgba(0,0,0,0.2);
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  color: #fff;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: rgba(0,0,0, 0.9);
+  transform:scale(1.1);
+  transition: 0.2s;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 8px 6px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+}
+
+
+.profilepic {
+  max-width: 50%;
+  max-height: 50%;
+  margin:auto;
+  margin-top:30px;
+  border-radius:50%;
+
+}
+
+/*.profilepicDiv {
+  border:red solid 2px;
+}*/
+
+.introductionTextDiv {
+  background-color:#FFFFFF;
+  border:grey solid 2px;
+  border-radius:50px;
+  margin-top:90px;
+  z-index:1;
+  opacity:0.8;
+  filter: alpha(opacity=50);
+
+}
+
+.introductionText {
+
+  text-align:left;
+  font-size:25px;
+  font-family: Tahoma,Verdana,Segoe,sans-serif; 
+  color:#001f3f;
+  z-index:2;
+}
+
+h1 {
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+  color:#001f3f;
+}
+
+h3 {
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+  color:white;
+  line-height:32px;
+}
+
+span {
+  background-color: transparent;
+  white-space:pre;
+}
+
+.navbar-header {
+  padding-left:25%;
+}
+
+.navbar-nav {
+  padding-right:25%;
+}
+
+.navbar-default{
+  background-color:#2C3E50;
+}
+
+.navbar-default .navbar-brand {
+  font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
+  color:#FFFFFF;
+  font-size:27px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  background-color:transparent;
+  color:#33ccff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  background-color:#2C3E50;
+  color:white;
+  font-family:Gill Sans,Gill Sans MT,Calibri,sans-serif;
+  font-size:16px;
+  font-weight:bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color:#2C3E50;
+  color:white;
+  font-family:Gill Sans,Gill Sans MT,Calibri,sans-serif;
+  font-size:20px;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background-color:#2C3E50;
+  color:white;
+  font-family:Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+}
+
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+  background-color:grey;
+  color:black;
+  font-family:Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+  font-weight: bold;
+}
+
+.background2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: url('https://l1.nl/content/images/2017/04/bookcase-1869616_1920.jpg') no-repeat center center fixed;
+  background-size:cover;
+  max-height:1200px;
+  z-index:-1;
+  /*
+  filter:blur(2px);
+  -webkit-filter:blur(2px);!*/
+}
+
+.customThumbnailParentDiv {
+  display:flex;
+  padding-top:15px;
+}
+
+.customThumbnail {
+  border:solid grey 2px;
+  border-radius: 30px;
+}
+
+.customThumbnail:hover {
+  border:solid black 2px;
+  border-radius: 30px;
+  transform:translateX(-5px);
+  transform:translateY(-5px);
+  box-shadow: 8px 6px 3px rgba(0,0,0,0.5);
+  transition:0.3s;
+}
+
+.background3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left:100px;
+  text-align: left;
+  background: url('http://www.viajesenlamochila.com/wp-content/uploads/2016/12/commuters-1835364_1920.jpg') no-repeat center center fixed;
+  background-size:cover;
+  max-height:1200px;
+  z-index:-1;
+  /*
+  filter:blur(2px);
+  -webkit-filter:blur(2px);!*/
+}
+
+.btn-social-icon {
+  background-color:transparent;
+  padding: 14px 20px;
+  font-size: 18px; //change this to your desired size
+  line-height: normal;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 50%;
+  border-color:white;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0);
+  box-shadow: 8px 6px 3px rgba(0,0,0,0);
+}
+
+.btn-social-icon:hover {
+  background-color:black;
+  padding: 14px 20px;
+  font-size: 18px; //change this to your desired size
+  line-height: normal;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 50%;
+  transform:scale(1);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0);
+  box-shadow: 8px 6px 3px rgba(0,0,0,0);
+}
