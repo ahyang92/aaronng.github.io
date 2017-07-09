@@ -193,7 +193,7 @@ span {
 
 .overlay {
   position: absolute;
-  left:12%;
+/*   left:12%; */
   height: 100%;
   width: 100%;
   border-radius:15px;
