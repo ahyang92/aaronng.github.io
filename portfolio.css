@@ -195,7 +195,7 @@ span {
   position: absolute;
 /*   left:12%; */
   height: 100%;
-  width: 90%;
+  width: 95%;
   border-radius:15px;
   opacity: 0;
   transition: .5s ease;
